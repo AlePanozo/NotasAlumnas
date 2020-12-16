@@ -31,7 +31,7 @@ public class Alumnas extends  Persona {
         Notas notas;
         Double NotaFinal;
         notas = getNotas();
-        NotaFinal = notas.getNota1()*0.1 + notas.getNota2()*0.2 + notas.getNota3()*0.3 + notas.getNota4()*0.4 ;
+        NotaFinal = notas.getNotas().get(0) *0.1+notas.getNotas().get(1) *0.2+notas.getNotas().get(2) *0.3+notas.getNotas().get(3) *0.4;
         return NotaFinal;
     }
 }
