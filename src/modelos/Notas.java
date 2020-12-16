@@ -1,29 +1,27 @@
 package modelos;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Notas {
+    private List<Integer> notas;
 
-    private int [] nota = new int[3];
-
-    public Notas(int[] nota) {
-        this.nota = nota;
+    public Notas(List<Integer> notas) {
+        this.notas = notas;
     }
 
-    public int[] getNota() {
-        return nota;
+    public List<Integer> getNotas() {
+        return notas;
     }
 
-    public void setNota(int[] nota) {
-        this.nota = nota;
+    public void setNotas(List<Integer> notas) {
+        this.notas = notas;
     }
 
     @Override
     public String toString() {
         return "Notas{" +
-                "nota=" + Arrays.toString(nota) +
+                "notas=" + notas +
                 '}';
     }
-
-
 }
