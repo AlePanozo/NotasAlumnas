@@ -34,11 +34,11 @@ public class PoblarClasesImpl  implements IPoblarClases {
     @Override
     public List<Notas> CrearNotas() {
         List <Notas> calificaciones = new ArrayList<>();
-        Notas Pepita = new Notas(3,7,5,2);
-        Notas Ale = new Notas(8,5,5,4);
-        Notas Sofia = new Notas(3,7,5,8);
-        Notas Karla = new Notas(1,3,5,2);
-        Notas Camila = new Notas(3,7,1,1);
+        Notas Pepita = new Notas(Arrays.asList(1,2,3,8));
+        Notas Ale = new Notas(Arrays.asList(1,2,3,8));
+        Notas Sofia = new Notas(Arrays.asList(1,2,3,8));
+        Notas Karla = new Notas(Arrays.asList(1,2,3,8));
+        Notas Camila = new Notas(Arrays.asList(8,2,3,8));
 
         calificaciones.add(Pepita);
         calificaciones.add(Ale);
